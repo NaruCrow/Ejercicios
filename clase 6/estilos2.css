@@ -1,0 +1,30 @@
+.cubo1 {
+    background-color: coral;
+    height: 30px;
+    width: 30px;
+    margin-right: auto; /* Empujar cubo 1 hacia la parte superior izquierda */
+}
+
+.cubo2 {
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto; /* Centrar el cubo 2 horizontalmente */
+    margin-top: 50%;
+}
+
+.cubo3 {
+    background-color: darkseagreen;
+    height: 30px;
+    width: 30px;
+    margin-bottom: auto; /* Empujar cubo 3 hacia la parte inferior */
+    margin-right: auto; /* Empujar cubo 3 hacia la parte inferior izquierda */
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 100;
+}

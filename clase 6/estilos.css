@@ -1,0 +1,27 @@
+.externo {
+    background-color: red;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medio {
+    background-color: yellow;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interno {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: green;
+}
